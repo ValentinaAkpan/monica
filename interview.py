@@ -87,5 +87,4 @@ elif option == 'Q5':
 st.markdown(f"## {question_title}")
 plot_bar_chart(sector_data, question_title, 'Industry Sector', 'Count of Responses')
 
-st.markdown("### Donut Chart of Responses")
 create_donut_chart(selected_data, question_title)
