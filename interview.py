@@ -11,7 +11,6 @@ st.title('Interview Foundations Data Analysis')
 
 # Introduce the data and its purpose
 st.markdown("""
-### About this Data
 This dataset contains responses from various organizations about the efficiency and transparency of their funding processes. 
 You can select a question from the sidebar.
 """)
