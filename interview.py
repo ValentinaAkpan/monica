@@ -13,7 +13,7 @@ st.title('Interview Foundations Data Analysis')
 st.markdown("""
 ### About this Data
 This dataset contains responses from various organizations about the efficiency and transparency of their funding processes. 
-You can select a question from the sidebar, and the app will display both a bar chart and a donut chart for the selected question.
+You can select a question from the sidebar.
 """)
 
 # Create a sidebar for selecting the question (filter)
@@ -85,7 +85,6 @@ elif option == 'Q5':
 
 # Display both charts for the selected question
 st.markdown(f"## {question_title}")
-st.markdown("### Bar Chart by Industry Sector")
 plot_bar_chart(sector_data, question_title, 'Industry Sector', 'Count of Responses')
 
 st.markdown("### Donut Chart of Responses")
